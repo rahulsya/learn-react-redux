@@ -10,14 +10,12 @@ import reducer from "./reducer";
 
 const initialState = {
   cart: cartItems,
-  tota: 0,
+  total: 0,
   amount: 0,
 };
-
 const store = createStore(reducer, initialState);
 function App() {
   // cart setup
-
   return (
     <main>
       <Navbar />
